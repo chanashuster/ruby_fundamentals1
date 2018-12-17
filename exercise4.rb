@@ -22,3 +22,18 @@ elsif age>=105
 else
     puts "We are the same age"
 end
+
+#Name is 10 letters
+
+
+#Secret number
+secret_number=16
+puts "Enter a number"
+num=gets.chomp.to_i
+if num==16
+    puts "You win!"
+elsif num==16-1 || num==16+1
+    puts "So Close!"
+else
+    puts "try again"
+end
